@@ -1,0 +1,33 @@
+{
+	"code": 0,
+	"data": [{
+		"id": 180529154215620,
+		"provinceId": "440000",
+		"cityId": "440100",
+		"countyId": "440105",
+		"address": "中州交易中心8楼811",
+		"consignee": "苏文豪",
+		"phone": "13229710047",
+		"isDefault": true,
+		"zipCode": "",
+		"memberId": 180522104327542,
+		"provinceName": "广东省",
+		"cityName": "广州市",
+		"countyName": "海珠区"
+	}, {
+		"id": 180801152906291,
+		"provinceId": "440000",
+		"cityId": "440100",
+		"countyId": "440106",
+		"address": "车陂南",
+		"consignee": "苏文濠",
+		"phone": "13229710047",
+		"isDefault": false,
+		"zipCode": "",
+		"memberId": 180522104327542,
+		"provinceName": "广东省",
+		"cityName": "广州市",
+		"countyName": "天河区"
+	}],
+	"message": "操作成功"
+}

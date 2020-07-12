@@ -1,0 +1,39 @@
+{
+	"code": 0,
+	"data": {
+		"isReturnExpired": false,
+		"isComment": 0,
+		"consignee": "苏文豪",
+		"address": "广东省广州市海珠区中州交易中心8楼811",
+		"orderMoney": 35.000,
+		"orderId": 180614110324166,
+		"orderSn": "123927379220",
+		"freight": 0.000,
+		"orderStatus": 1,
+		"discountMoney": 0.000,
+		"storeId": 180416162244281,
+		"orderItems": [{
+			"id": 180614110324172,
+			"name": "花懂得植物营养液专用型花肥料盆栽土水培玫瑰月季花卉液体有机肥",
+			"price": 35.000,
+			"discountPrice": null,
+			"thumbnail": "/group1/M00/00/14/rBKok1rYZ1qAQMe_AAOxzIlHEwI189.png",
+			"quantity": 1,
+			"returnQuantity": null,
+			"productId": 180419180025944,
+			"orderId": 180614110324166,
+			"status": 0,
+			"skuId": 180419180306834,
+			"sku": "颜色分类:1瓶50ml月季玫瑰型",
+			"storeId": null
+		}],
+		"expressName": null,
+		"orderTime": "2018-06-14 11:03:21",
+		"orderStatusTxt": "待支付",
+		"trackingNo": null,
+		"storeLogo": "/group1/M00/00/0F/rBKok1rUd-SAQPoTAAHZU81YFug788.jpg",
+		"storeName": "花店",
+		"isReceipt": false
+	},
+	"message": "操作成功"
+}

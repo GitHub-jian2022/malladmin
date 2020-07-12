@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "koa": "^2.5.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-jsonp": "^2.0.2",
+    "koa-router": "^7.4.0",
+    "koa-session": "^5.8.2",
+    "koa-static": "^5.0.0",
+    "mongoose": "^5.2.3",
+    "silly-datetime": "^0.1.2",
+    "utility": "^1.14.0"
+  }
+}

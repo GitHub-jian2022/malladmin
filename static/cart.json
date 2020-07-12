@@ -1,0 +1,15 @@
+{
+    "code":0,
+    "msg":"成功",
+    "data":[
+        {"stockNum":30,"id":100001,"check":false,"price":200.00,"value":1,"lable":"Vue.js 前端开发 快速入门与专业应用","img":"https://img10.360buyimg.com/n4/jfs/t3199/262/7067558943/58497/e77f3d90/58af0e1bNd71632d2.jpg"},
+        {"stockNum":541,"id":100002,"check":false,"price":150.00,"value":2,"lable":"Python游戏编程入门","img":"https:////img10.360buyimg.com/n4/jfs/t5896/249/1414744553/313344/b1553278/59266d0fN109569da.jpg"},
+        {"stockNum":120,"id":100003,"check":false,"price":150.00,"value":4,"lable":"OV 32G Class10 80MB/S TF卡(Micro SD)手机内存卡平板电脑行车记录仪高速存储卡","img":"https:////img10.360buyimg.com/n4/jfs/t15307/73/1574150762/99195/f33e7700/5a530814N76c7e0fc.jpg"},
+        {"stockNum":10,"id":100004,"check":false,"price":200.00,"value":1,"lable":"OV 32G Class10 80MB/S TF卡(Micro SD)手机内存卡平板电脑行车记录仪高速存储卡","img":"https://img10.360buyimg.com/n4/jfs/t3199/262/7067558943/58497/e77f3d90/58af0e1bNd71632d2.jpg"},
+        {"stockNum":684,"id":100005,"check":false,"price":300.00,"value":1,"lable":"Python游戏编程入门","img":"https://img10.360buyimg.com/n4/jfs/t19837/286/2517492764/207003/bb2aa3d2/5b44db95N738df67e.jpg"},
+        {"stockNum":14,"id":100006,"check":false,"price":300.00,"value":1,"lable":"游戏编程入门（第4版）","img":"https://m.360buyimg.com/mobilecms/s370x370_jfs/t3229/259/6316008403/180152/e2ef9887/58a139dcN2c703bc5.jpg!q70.jpg.dpg"},
+        {"stockNum":35,"id":100007,"check":false,"price":300.00,"value":1,"lable":"OV 32G Class10 80MB/S TF卡(Micro SD)手机内存卡平板电脑行车记录仪高速存储卡","img":"https://m.360buyimg.com/mobilecms/s370x370_jfs/t21616/203/1838999767/267158/bd663501/5b3728c5N2a417fdd.jpg!q70.jpg.dpg"},
+        {"stockNum":25,"id":100008,"check":false,"price":300.00,"value":1,"lable":"Python游戏编程入门","img":"https://m.360buyimg.com/mobilecms/s370x370_jfs/t5944/343/5666623751/199570/e50a1a36/596c93c7Nf4804b2e.jpg!q70.jpg.dpg"},
+        {"stockNum":61,"id":100009,"check":false,"price":300.00,"value":1,"lable":"游戏编程入门（第4版）","img":"https://m.360buyimg.com/mobilecms/s370x370_jfs/t21553/248/2189126548/188956/a621bb48/5b488a99Ne3208d6f.jpg!q70.jpg.dpg"}
+    ]
+}
