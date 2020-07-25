@@ -1,10 +1,12 @@
 {
-  "data": {
-    "id": 1,
-    "phone": "15602941146",
-    "password": "123456",
-    "username": "admin",
-    "gender": "男",
-    "avatar_url": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=480783060,2515065005&fm=15&gp=0.jpg"
-  }
+  "data": [
+    {
+      "id": 1,
+      "phone": "10086",
+      "password": "123456",
+      "username": "admin",
+      "gender": "男",
+      "avatar_url": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=480783060,2515065005&fm=15&gp=0.jpg"
+    }
+  ]
 }

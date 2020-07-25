@@ -24,8 +24,10 @@ app.use(Session({
     rolling: true, 
     renew: false
 },app))
+
 //配置静态资源
 app.use(Static(path.join(__dirname,'static')))
+
 //配置post请求数据接收
 app.use(BodyParser());
 //jsonp

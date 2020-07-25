@@ -5,13 +5,13 @@
     "productImage": "1.jpg",
     "imgs_url": [
         {
-            "src": "https://img12.360buyimg.com/pop/s590x470_jfs/t1/135712/34/1910/75328/5ee1e77dEe0887f42/7075c561e4fe38f3.jpg.webp"
+            "src": "/images/Banners/1.webp"
         },
         {
-            "src": "https://img11.360buyimg.com/pop/s590x470_jfs/t1/121393/3/4435/46604/5edeecb0E0d91c9d2/818735bd52904c26.jpg.webp"
+            "src": "/images/Banners/2.webp"
         },
         {
-            "src": "https://imgcps.jd.com/ling/11620810/5Yqo5ryr55WF6ZSA5aW95Lmm/5q-P5ruhMTAw5YePNTA/p-5bd8253082acdd181d02fa47/e9ca4c85.jpg"
+            "src": "/images/Banners/3.jpg"
         }
     ],
     "originaPrice": 69,
