@@ -3,7 +3,6 @@ const fs = require('fs');
 const path = require('path');
 
 router.get('/getBanners', async (ctx) => {
-    console.log('getBanners')
     // 导航图片资源路径
     const fileUrl = 'static/images/Banners'
     var files = fs.readdirSync(fileUrl)//读取该文件夹

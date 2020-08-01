@@ -27,6 +27,9 @@ app.use(Session({
 
 //配置静态资源
 app.use(Static(path.join(__dirname,'static')))
+//配置打包资源路径
+app.use(Static(path.join(__dirname,'public/build')))
+
 
 //配置post请求数据接收
 app.use(BodyParser());

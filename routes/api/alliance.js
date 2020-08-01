@@ -1,7 +1,7 @@
 const router = require('koa-router')();
 const fs = require('fs');
 const path = require('path');
-
+const auth = require('../../middleware')
 // router.get('/listAddress', async (ctx)=>{
 //     let address_list = fs.readFileSync(path.join(__dirname,'../../static/address_list.json'),'utf8')
 //     ctx.body=JSON.parse(address_list)
@@ -32,7 +32,7 @@ router.get('/goodInfo', async (ctx)=>{
 })
 
 //订单路由
-router.post('/order/list', async (ctx)=>{
+router.post('/order/list',auth, async (ctx)=>{
     let {status} = ctx.request.body
     if(status===0){
         let order_list = fs.readFileSync(path.join(__dirname,'../../static/order_list.json'),'utf8')
@@ -55,9 +55,13 @@ router.post('/order/list', async (ctx)=>{
 })
 
 //购物车路由
-router.get('/cartList', async (ctx)=>{
-    let data = JSON.parse(fs.readFileSync(path.join(__dirname,'../../static/cart.json'),'utf8'))
-    // console.log('data: ', data);
-    ctx.body=data
+router.get('/cartList',auth, async (ctx)=>{
+    let res = JSON.parse(fs.readFileSync(path.join(__dirname,'../../static/cart.json'),'utf8'))
+
+    ctx.body={
+        code: 200,
+        msg: 'success',
+        data: res.data
+    }
 })
 module.exports = router.routes()
