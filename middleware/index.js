@@ -5,7 +5,7 @@ function auth(ctx,next){
   let access_token = authorization.split(' ').pop()
   access_token = access_token.replace(/\"/g, "")
   //去掉双引号
-  console.log(access_token)
+  console.log('access_token',access_token)
 
   if(verify(access_token).success){
     next();

@@ -1,8 +1,9 @@
 const router = require('koa-router')();
 const fs = require('fs');
 const path = require('path');
-const { sign } = require('../../../utils/TokenUtil')
+const { sign, verify } = require('../../../utils/TokenUtil')
 const { decrypt } = require('../../../utils/Tool')
+const auth = require('../../../middleware')
 
 router.post('/login', async (ctx) => {
     const { phone, password } = ctx.request.body
@@ -27,20 +28,29 @@ router.post('/login', async (ctx) => {
         }
     } else {
         ctx.body = {
-            code: 400,
+            code: 401,
             msg: '账号或密码不正确'
         }
     }
 })
 
-router.post('/getUserInfo', async (ctx) => {
-    const { token } = ctx.request.body
+router.post('/getUserInfo',auth, async (ctx) => {
+    let { token } = ctx.request.body
+    token = verify(token).decoded
+    console.log('token: ', token);
+    const { userId } = token
     let res = fs.readFileSync(path.join(__dirname, '../../../static/user/user.json'), 'utf8')
     let { data } = JSON.parse(res)
+    let user = {}
+    data.some(item => {
+        if(item.id === userId) {
+            user = item
+        }
+    })
     ctx.body = {
         msg: 'success',
         code: 200,
-        data
+        data: user
     }
 })
 
