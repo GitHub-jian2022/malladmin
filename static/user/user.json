@@ -1,12 +1,18 @@
 {
-  "data": [
-    {
-      "id": 1,
-      "phone": "10086",
-      "password": "U2FsdGVkX18keylG/Wmfb+fPWX3ba3OSu4icrPKRja8=",
-      "username": "admin",
-      "gender": "男",
-      "avatar_url": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=480783060,2515065005&fm=15&gp=0.jpg"
-    }
-  ]
+	"data": [
+		{
+			"id": 1,
+			"phone": "10086100108",
+			"password": "U2FsdGVkX18keylG/Wmfb+fPWX3ba3OSu4icrPKRja8=",
+			"username": "user2",
+			"gender": "男",
+			"avatar_url": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=480783060,2515065005&fm=15&gp=0.jpg"
+		},
+		{
+			"id": 2,
+			"phone": "10086100861",
+			"password": "U2FsdGVkX1/YQs2WdN7EuVgMGh8Y29yFmeaMb1uXF04=",
+			"username": "user_10086100861"
+		}
+	]
 }
