@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "crypto-js": "^4.0.0",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "koa": "^2.5.2",
     "koa-bodyparser": "^4.2.1",
     "koa-jsonp": "^2.0.2",
